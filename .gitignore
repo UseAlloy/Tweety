@@ -3,9 +3,8 @@
 db.sqlite3
 static
 media
-webpack-dev-stats.json
+webpack-stats.json
 assets/development
-webpack-prod-stats.json
 assets/bundles
 node_modules
 build
