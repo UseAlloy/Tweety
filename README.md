@@ -6,35 +6,26 @@ Tweety is a simple project for evaluating potential hires at Alloy. This project
 
 ## Getting Started
 
-### Backend
+Before anything else you should clone this repo to your local machine. Github has great documentation for this process [here](https://help.github.com/articles/cloning-a-repository/). Once the cloning process is finished, `cd` into the project.
 
-Daffy uses the latest versions of Django and Python 3 to run. If you're new to Python and Django, take a moment to read these short articles about how to get set up with a local development environment. Make sure to use Python >= 3.6 and not Python 2.
+### Back end
+
+This project uses the latest versions of Django and Python 3 to run the back end code, which is stored in the `tweety` directory. If you're new to Python and Django, take a moment to read these short articles about how to get set up with a local development environment. Make sure to use Python >=3.6 and not Python 2.
 
  - [Installing Python on OS X](http://docs.python-guide.org/en/latest/starting/install/osx/)
  - [Installing Python on Windows](http://docs.python-guide.org/en/latest/starting/install/win/)
  - [Using Python Virtual Environments](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 
-Once you have virtualenv and/or virtualenvwrapper installed, create a new virtualenv for this project. Then, clone this repository onto your local machine and `cd` into the project directory. You can install this project's Python package requirements using the command `pip install -r requirements.txt`, and then set the Django environment by copying the `.env.example` file in the root project directory to `.env`.
+To get started running the back end:
 
-After the project's required packages have been installed, you can run this project locally using the command `python manage.py runserver_plus`.
+ 1. Create a virtualenv using Python >=3.6 and activate it.
+ 2. Install the Python package requirements with `pip install -r requirements.txt`.
+ 3. Run the Django development server that will serve the back end of the project using `python manage.py runserver`.
 
-### Frontend
 
-The static assets are compiled by Webpack within the `assets/` directory.
+### Front end
 
-Webpack comes with an easy to use static file server for local development.
+React, JSX, and SCSS are used for the front end stack. The relevant files are then compiled by Webpack into browser-compatible bundles within the `assets` directory. The Webpack compilation process and development server are run by Node.js, so make sure you have an up-to-date version of Node (^8.9.4) installed on your local machine before beginning the next steps. Information about installing Node can be found [here](https://nodejs.org/en/download/package-manager/). Once you have it installed, you can get started serving the static assets locally:
 
-  1. Install the required `node_modules/` for this project with `npm install`.
-    - When running `npm install` on OS X, there is a bug that has been encountered in the past dealing with `node-gyp rebuild`, where node complains about a missing `libzmq.pc` file. If you haven't installed `zeromq`, do a `brew install zeromq`. Then, you probably have to find the `pkgconfig` directory in `/usr/local/Cellar/zeromq/<version>/lib` and set the `PKG_CONFIG_PATH` environment variable to that `pkgconfig` directory path. Running `npm install` should now work.
-    - This also might not work if the `pkg-config` package is not installed on your system. This can be remedied by running `brew install pkg-config`.
-  2. Then, from the root project directory, start the server with `node assets/server.js`. This will watch for changes to static files in the assets directory and recompile them when changes do occur.
-
-### Requirement Versions
-
-Getting setup with this project can be a pain if you're not using the correct versions of the required software. Daffy currently builds using:
-
-  - Python ^3.6.5
-  - Node ^8.9.4
-  - NPM ^3.10.10
-
-If you're experiencing issues setting up the project locally and your software versions do not match the versions above, try upgrading your local software and seeing if that fixes the problem.
+  1. Install the required Node.js package requirements with `npm install`.
+  2. From the root project directory, start the server with `npm run assets`. This will watch for changes to static files in the assets directory and recompile them when changes do occur.
