@@ -1,0 +1,24 @@
+.env
+*.pyc
+db.sqlite3
+static
+media
+webpack-dev-stats.json
+assets/development
+webpack-prod-stats.json
+assets/bundles
+node_modules
+build
+/env
+/src
+*.log
+npm-debug.log*
+.idea/**/*
+.vscode
+.DS_Store
+
+# for codeship
+codeship.aes
+aws-deployment.env
+package-lock.json
+.vscode/settings.json

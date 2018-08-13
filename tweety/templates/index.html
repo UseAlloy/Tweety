@@ -1,0 +1,25 @@
+<!doctype HTML>
+{% load staticfiles %}
+{% load render_bundle from webpack_loader %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <title>Tweety</title>
+
+    {% block head_css %}
+    {% render_bundle 'index' 'css' %}
+    {% endblock %}
+  </head>
+
+  <body>
+    <p id="tweety-p">This is the body.</p>
+
+    {% block body_js %}
+    {% render_bundle 'index' 'js' %}
+    {% endblock %}
+  </body>
+</html>
