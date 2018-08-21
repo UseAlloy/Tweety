@@ -1,0 +1,284 @@
+{
+  "Characters": [
+    "Mario",
+    "Yoshi",
+    "Peach",
+    "Toad",
+    "Luigi",
+    "Donkey Kong",
+    "Wario",
+    "Bowser"
+  ],
+
+  "Tracks": {
+    "Mushroom Cup": [
+      "Luigi Raceway",
+      "Moo Moo Farm",
+      "Koopa Troopa Beach",
+      "Kalimari Desert"
+    ],
+    "Flower Cup": [
+      "Toad's Turnpike",
+      "Frappe Snowland",
+      "Choco Mountain",
+      "Mario Raceway"
+    ],
+    "Star Cup": [
+      "Wario Stadium",
+      "Sherbet Land",
+      "Royal Raceway",
+      "Bowser's Castle"
+    ],
+    "Special Cup": [
+      "DK's Jungle Parkway",
+      "Yoshi Valley",
+      "Banshee Boardwalk",
+      "Rainbow Road"
+    ]
+  },
+
+  "Heats": {
+
+    "8/13/18 5:30 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Charles",
+          "character": "Yoshi"
+        },
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        },
+        {
+          "name": "Jeff",
+          "character": "Toad"
+        }
+      ],
+      "races": [
+        {
+          "track": "Mario Raceway",
+          "chosen_by": "Charles",
+          "placement": ["Jeff", "Scott", "Charles"]
+        },
+        {
+          "track": "Koopa Troopa Beach",
+          "chosen_by": "Scott",
+          "placement": ["Charles", "Jeff", "Scott"] 
+        },
+        {
+          "track": "Choco Mountain",
+          "chosen_by": "Jeff",
+          "placement": ["Scott", "Jeff", "Charles"]
+        }
+      ]
+    },
+
+    "8/14/18 4:00 PM": {
+      "championship": true,
+      "players": [
+        {
+          "name": "Charles",
+          "character": "Yoshi"
+        },
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        },
+        {
+          "name": "Jeff",
+          "character": "Toad"
+        }
+      ],
+      "races": [
+        {
+          "track": "Sherbet Land",
+          "chosen_by": "Charles",
+          "placement": ["Scott", "Jeff", "Charles"]
+        },
+        {
+          "track": "Mario Raceway",
+          "chosen_by": "Scott",
+          "placement": ["Scott", "Charles", "Jeff"]
+        },
+        {
+          "track": "Royal Raceway",
+          "chosen_by": "Jeff",
+          "placement": ["Jeff", "Charles", "Scott"]
+        },
+        {
+          "track": "Rainbow Road",
+          "chosen_by": "championship",
+          "placement": ["Jeff", "Scott", "Charles"]
+        }
+      ]
+    },
+
+    "8/16/18 3:00 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Tommy N",
+          "character": "Peach"
+        },
+        {
+          "name": "Edwina",
+          "character": "Toad"
+        },
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        },
+        {
+          "name": "Charles",
+          "character": "Yoshi"
+        }
+      ],
+      "races": [
+        {
+          "track": "Mario Raceway",
+          "chosen_by": "Tommy N",
+          "placement": ["Charles", "Scott", "Tommy N", "Edwina"]
+        },
+        {
+          "track": "Moo Moo Farm",
+          "chosen_by": "Edwina",
+          "placement": ["Scott", "Charles", "Edwina", "Tommy N (DNR)"]
+        },
+        {
+          "track": "Royal Raceway",
+          "chosen_by": "Scott",
+          "placement": ["Scott", "Charles", "Edwina", "Tommy N (DNR)"]
+        },
+        {
+          "track": "Sherbet Land",
+          "chosen_by": "Charles",
+          "placement": ["Scott", "Charles", "Edwina", "Tommy N (DNR)"]
+        }
+      ]
+    },
+
+    "8/20/18 2:30 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Tommy G",
+          "character": "DK"
+        },
+        {
+          "name": "Jeff",
+          "character": "Peach"
+        },
+        {
+          "name": "Tommy N",
+          "character": "Toad"
+        }
+      ],
+      "races": [
+        {
+          "track": "Toad's Turnpike",
+          "chosen_by": "Tommy G",
+          "placement": ["Tommy N", "Jeff", "Tommy G"]
+        },
+        {
+          "track": "Royal Raceway",
+          "chosen_by": "Jeff",
+          "placement": ["Jeff", "Tommy G", "Tommy N"]
+        },
+        {
+          "track": "Bowser's Castle",
+          "chosen_by": "Tommy N",
+          "placement": ["Tommy N", "Tommy G", "Jeff (DQ)"]
+        }
+      ]
+    },
+
+    "8/20/18 4:00 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Tommy G",
+          "character": "Wario"
+        },
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        },
+        {
+          "name": "Charles",
+          "character": "Yoshi"
+        },
+        {
+          "name": "Jeff",
+          "character": "Toad"
+        }
+      ],
+      "races": [
+        {
+          "track": "Toad's Turnpike",
+          "chosen_by": "Tommy G",
+          "placement": ["Scott", "Tommy G", "Charles", "Jeff (DNR)"]
+        },
+        {
+          "track": "Sherbet Land",
+          "chosen_by": "Scott",
+          "placement": ["Charles", "Scott", "Tommy G", "Jeff (DNR)"]
+        },
+        {
+          "track": "DK's Jungle Parkway",
+          "chosen_by": "Charles",
+          "placement": ["Tommy G", "Jeff", "Charles", "Scott"]
+        },
+        {
+          "track": "Toad's Turnpike",
+          "chosen_by": "Tommy G",
+          "placement": ["Scott", "Jeff", "Charles", "Tommy G"]
+        }
+      ]
+    },
+
+    "8/21/18 3:30 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Charles",
+          "character": "Yoshi"
+        },
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        },
+        {
+          "name": "Tommy G",
+          "character": "Wario"
+        },
+        {
+          "name": "Jeff",
+          "character": "Toad"
+        }
+      ],
+      "races": [
+        {
+          "track": "Mario Raceway",
+          "chosen_by": "Charles",
+          "placement": ["Charles", "Jeff", "Tommy G", "Scott"]
+        },
+        {
+          "track": "Sherbet Land",
+          "chosen_by": "Scott",
+          "placement": ["Scott", "Jeff", "Charles", "Tommy G"]
+        },
+        {
+          "track": "Toad's Turnpike",
+          "chosen_by": "Tommy G",
+          "placement": ["Jeff", "Scott", "Tommy G", "Charles"]
+        },
+        {
+          "track": "Royal Raceway",
+          "chosen_by": "Jeff",
+          "placement": ["Jeff", "Charles", "Tommy G", "Scott"]
+        }
+      ]
+    }
+  }
+}
