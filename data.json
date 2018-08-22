@@ -279,6 +279,50 @@
           "placement": ["Jeff", "Charles", "Tommy G", "Scott"]
         }
       ]
+    },
+
+    "8/22/18 3:00 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Charles",
+          "character": "Yoshi"
+        },
+        {
+          "name": "Jeff",
+          "character": "Peach"
+        },
+        {
+          "name": "Tommy G",
+          "character": "Wario"
+        },
+        {
+          "name": "Scott",
+          "character": "Toad"
+        }
+      ],
+      "races": [
+        {
+          "track": "Calimari Desert",
+          "chosen_by": "Charles",
+          "placement": ["Scott", "Jeff", "Tommy G", "Charles"]
+        },
+        {
+          "track": "Royal Raceway",
+          "chosen_by": "Jeff",
+          "placement": ["Jeff", "Tommy G", "Charles", "Scott"]
+        },
+        {
+          "track": "Sherbet Land",
+          "chosen_by": "Scott",
+          "placement": ["Scott", "Charles", "Tommy G", "Jeff"]
+        },
+        {
+          "track": "Royal Raceway",
+          "chosen_by": "Tommy G",
+          "placement": ["Tommy G", "Jeff", "Charles", "Scott"]
+        }
+      ]
     }
   }
 }
