@@ -323,6 +323,76 @@
           "placement": ["Tommy G", "Jeff", "Charles", "Scott"]
         }
       ]
+    },
+
+    "8/24/18 3:00 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Jeff",
+          "character": "Toad"
+        },
+        {
+          "name": "Tommy G",
+          "character": "Wario"
+        },
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        }
+      ],
+      "races": [
+        {
+          "track": "Choco Mountain",
+          "chosen_by": "Jeff",
+          "placement": ["Jeff", "Scott", "Tommy G"]
+        },
+        {
+          "track": "Frappe Snowland",
+          "chosen_by": "Tommy G",
+          "placement": ["Jeff", "Scott", "Tommy G"]
+        },
+        {
+          "track": "Mario Raceway",
+          "chosen_by": "Scott",
+          "placement": ["Scott", "Tommy G", "Jeff"]
+        }
+      ]
+    },
+
+    "8/27/18 3:00 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Charles",
+          "character": "Yoshi"
+        },
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        },
+        {
+          "name": "Jeff",
+          "character": "Toad"
+        }
+      ],
+      "races": [
+        {
+          "track": "Mario Raceway",
+          "chosen_by": "Charles",
+          "placement": ["Charles", "Scott", "Jeff"]
+        },
+        {
+          "track": "Frappe Snowland",
+          "chosen_by": "Tommy G",
+          "placement": ["Scott", "Charles", "Jeff"]
+        },
+        {
+          "track": "Mario Raceway",
+          "chosen_by": "Scott",
+          "placement": ["Scott", "Jeff", "Charles"]
+        }
+      ]
     }
   }
 }
