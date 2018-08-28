@@ -393,6 +393,41 @@
           "placement": ["Scott", "Jeff", "Charles"]
         }
       ]
+    },
+
+    "8/28/18 3:00 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Charles",
+          "character": "Yoshi"
+        },
+        {
+          "name": "Jeff",
+          "character": "Toad"
+        },
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        }
+      ],
+      "races": [
+        {
+          "track": "Bowser's Castle",
+          "chosen_by": "Charles",
+          "placement": ["Scott", "Charles", "Jeff"]
+        },
+        {
+          "track": "Royal Raceway",
+          "chosen_by": "Jeff",
+          "placement": ["Scott", "Charles", "Jeff"]
+        },
+        {
+          "track": "Sherbet Land",
+          "chosen_by": "Scott",
+          "placement": ["Jeff", "Scott", "Charles"]
+        }
+      ]
     }
   }
 }
