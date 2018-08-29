@@ -428,6 +428,50 @@
           "placement": ["Jeff", "Scott", "Charles"]
         }
       ]
+    },
+
+    "8/29/18 3:30 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Charles",
+          "character": "Yoshi"
+        },
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        },
+        {
+          "name": "Tommy N",
+          "character": "Toad"
+        },
+        {
+          "name": "Tommy G",
+          "character": "Wario"
+        }
+      ],
+      "races": [
+        {
+          "track": "DK's Jungle Parkway",
+          "chosen_by": "Charles",
+          "placement": ["Charles", "Tommy N", "Tommy G", "Scott"]
+        },
+        {
+          "track": "Sherbet Land",
+          "chosen_by": "Scott",
+          "placement": ["Scott", "Charles", "Tommy N", "Tommy G"]
+        },
+        {
+          "track": "Royal Raceway",
+          "chosen_by": "Tommy N",
+          "placement": ["Scott", "Tommy N", "Charles", "Tommy G"]
+        },
+        {
+          "track": "Toad's Turnpike",
+          "chosen_by": "Tommy G",
+          "placement": ["Scott", "Charles", "Tommy N", "Tommy G"]
+        }
+      ]
     }
   }
 }
