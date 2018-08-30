@@ -472,6 +472,50 @@
           "placement": ["Scott", "Charles", "Tommy N", "Tommy G"]
         }
       ]
+    },
+
+    "8/30/18 3:00 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Tommy N",
+          "character": "Peach"
+        },
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        },
+        {
+          "name": "Jeff",
+          "character": "Toad"
+        },
+        {
+          "name": "Charles",
+          "character": "Yoshi"
+        }
+      ],
+      "races": [
+        {
+          "track": "Royal Raceway",
+          "chosen_by": "Tommy N",
+          "placement": ["Scott", "Tommy N", "Jeff", "Charles"]
+        },
+        {
+          "track": "Sherbet Land",
+          "chosen_by": "Scott",
+          "placement": ["Jeff", "Scott", "Charles", "Tommy N"]
+        },
+        {
+          "track": "Choco Mountain",
+          "chosen_by": "Jeff",
+          "placement": ["Jeff", "Charles", "Scott", "Tommy N"]
+        },
+        {
+          "track": "Mario Raceway",
+          "chosen_by": "Charles",
+          "placement": ["Jeff", "Scott", "Charles", "Tommy N"]
+        }
+      ]
     }
   }
 }
