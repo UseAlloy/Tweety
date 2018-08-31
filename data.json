@@ -516,6 +516,50 @@
           "placement": ["Jeff", "Scott", "Charles", "Tommy N"]
         }
       ]
+    },
+
+    "8/31/18 3:00 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Tommy N",
+          "character": "Yoshi"
+        },
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        },
+        {
+          "name": "Jeff",
+          "character": "Toad"
+        },
+        {
+          "name": "Tommy G",
+          "character": "Wario"
+        }
+      ],
+      "races": [
+        {
+          "track": "Royal Raceway",
+          "chosen_by": "Tommy N",
+          "placement": ["Scott", "Tommy N", "Tommy G", "Jeff"]
+        },
+        {
+          "track": "Sherbet Land",
+          "chosen_by": "Scott",
+          "placement": ["Scott", "Tommy N", "Jeff", "Tommy G"]
+        },
+        {
+          "track": "Choco Mountain",
+          "chosen_by": "Jeff",
+          "placement": ["Scott", "Tommy N", "Jeff", "Tommy G"]
+        },
+        {
+          "track": "Toad's Turnpike",
+          "chosen_by": "Tommy G",
+          "placement": ["Jeff", "Tommy N", "Tommy G", "Scott"]
+        }
+      ]
     }
   }
 }
