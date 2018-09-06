@@ -604,6 +604,50 @@
           "placement": ["Scott", "Jeff", "Charles", "Tommy N"]
         }
       ]
+    },
+
+    "9/6/18 3:30 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Tommy G",
+          "character": "Wario"
+        },
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        },
+        {
+          "name": "Jeff",
+          "character": "Toad"
+        },
+        {
+          "name": "Tommy N",
+          "character": "Peach"
+        }
+      ],
+      "races": [
+        {
+          "track": "Toad's Turnpike",
+          "chosen_by": "Tommy G",
+          "placement": ["Tommy G", "Scott", "Tommy N", "Jeff"]
+        },
+        {
+          "track": "Sherbet Land",
+          "chosen_by": "Scott",
+          "placement": ["Scott", "Jeff", "Tommy G", "Tommy N"]
+        },
+        {
+          "track": "Royal Raceway",
+          "chosen_by": "Jeff",
+          "placement": ["Scott", "Tommy G", "Tommy N", "Jeff"]
+        },
+        {
+          "track": "Mario Raceway",
+          "chosen_by": "Tommy N",
+          "placement": ["Jeff", "Tommy N", "Scott", "Tommy G"]
+        }
+      ]
     }
   }
 }
