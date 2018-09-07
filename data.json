@@ -163,7 +163,7 @@
       "players": [
         {
           "name": "Tommy G",
-          "character": "DK"
+          "character": "Donkey Kong"
         },
         {
           "name": "Jeff",
@@ -303,7 +303,7 @@
       ],
       "races": [
         {
-          "track": "Calimari Desert",
+          "track": "Kalimari Desert",
           "chosen_by": "Charles",
           "placement": ["Scott", "Jeff", "Tommy G", "Charles"]
         },
