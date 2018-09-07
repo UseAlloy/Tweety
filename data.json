@@ -648,6 +648,50 @@
           "placement": ["Jeff", "Tommy N", "Scott", "Tommy G"]
         }
       ]
+    },
+
+    "9/7/18 2:30 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Charles",
+          "character": "Peach"
+        },
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        },
+        {
+          "name": "Tommy N",
+          "character": "Yoshi"
+        },
+        {
+          "name": "Mark",
+          "character": "Luigi"
+        }
+      ],
+      "races": [
+        {
+          "track": "Mario Raceway",
+          "chosen_by": "Charles",
+          "placement": ["Charles", "Scott", "Tommy N", "Mark"]
+        },
+        {
+          "track": "Kalimari Desert",
+          "chosen_by": "Scott",
+          "placement": ["Scott", "Charles", "Tommy N", "Mark"]
+        },
+        {
+          "track": "Royal Raceway",
+          "chosen_by": "Tommy N",
+          "placement": ["Charles", "Scott", "Tommy N", "Mark"]
+        },
+        {
+          "track": "Toad's Turnpike",
+          "chosen_by": "Mark",
+          "placement": ["Scott", "Tommy N", "Charles", "Mark"]
+        }
+      ]
     }
   }
 }
