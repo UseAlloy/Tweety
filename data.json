@@ -692,6 +692,50 @@
           "placement": ["Scott", "Tommy N", "Charles", "Mark"]
         }
       ]
+    },
+
+    "9/7/18 2:30 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Charles",
+          "character": "Peach"
+        },
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        },
+        {
+          "name": "Tommy N",
+          "character": "Yoshi"
+        },
+        {
+          "name": "Mark",
+          "character": "Luigi"
+        }
+      ],
+      "races": [
+        {
+          "track": "Koopa Troopa Beach",
+          "chosen_by": "Charles",
+          "placement": ["Charles", "Jeff", "Scott"]
+        },
+        {
+          "track": "Sherbet Land",
+          "chosen_by": "Scott",
+          "placement": ["Charles", "Scott", "Jeff"]
+        },
+        {
+          "track": "Banshee Boardwalk",
+          "chosen_by": "Jeff",
+          "placement": ["Jeff", "Charles", "Scott"]
+        },
+        {
+          "track": "Rainbow Road",
+          "chosen_by": "championship",
+          "placement": ["Scott", "Jeff", "Charles"]
+        }
+      ]
     }
   }
 }
