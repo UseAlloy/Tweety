@@ -695,7 +695,7 @@
     },
 
     "9/7/18 2:30 PM": {
-      "championship": false,
+      "championship": true,
       "players": [
         {
           "name": "Charles",
@@ -708,10 +708,6 @@
         {
           "name": "Tommy N",
           "character": "Yoshi"
-        },
-        {
-          "name": "Mark",
-          "character": "Luigi"
         }
       ],
       "races": [
@@ -734,6 +730,50 @@
           "track": "Rainbow Road",
           "chosen_by": "championship",
           "placement": ["Scott", "Jeff", "Charles"]
+        }
+      ]
+    },
+
+    "9/11/18 2:30 PM": {
+      "championship": false,
+      "players": [
+        {
+          "name": "Charles",
+          "character": "Yoshi"
+        },
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        },
+        {
+          "name": "Jeff",
+          "character": "Peach"
+        },
+        {
+          "name": "Tommy N",
+          "character": "Toad"
+        }
+      ],
+      "races": [
+        {
+          "track": "Mario Raceway",
+          "chosen_by": "Charles",
+          "placement": ["Jeff", "Scott", "Charles", "Tommy N"]
+        },
+        {
+          "track": "Sherbet Land",
+          "chosen_by": "Scott",
+          "placement": ["Jeff", "Scott", "Charles", "Tommy N"]
+        },
+        {
+          "track": "Royal Raceway",
+          "chosen_by": "Jeff",
+          "placement": ["Tommy N", "Jeff", "Scott", "Charles"]
+        },
+        {
+          "track": "Kalimari Desert",
+          "chosen_by": "Tommy N",
+          "placement": ["Tommy N", "Charles", "Jeff", "Scott"]
         }
       ]
     }
