@@ -776,6 +776,46 @@
           "placement": ["Tommy N", "Charles", "Jeff", "Scott"]
         }
       ]
+    },
+
+    "9/12/18 3:00 PM": {
+      "championship": true,
+      "players": [
+        {
+          "name": "Scott",
+          "character": "Bowser"
+        },
+        {
+          "name": "Charles",
+          "character": "Yoshi"
+        },
+        {
+          "name": "Jeff",
+          "character": "Toad"
+        }
+      ],
+      "races": [
+        {
+          "track": "Toad's Turnpike",
+          "chosen_by": "Scott",
+          "placement": ["Charles", "Jeff", "Scott"]
+        },
+        {
+          "track": "Mario Raceway",
+          "chosen_by": "Charles",
+          "placement": ["Scott", "Charles", "Jeff"]
+        },
+        {
+          "track": "Royal Raceway",
+          "chosen_by": "Jeff",
+          "placement": ["Charles", "Scott", "Jeff"]
+        },
+        {
+          "track": "Bowser's Castle",
+          "chosen_by": "championship",
+          "placement": ["Charles", "Jeff", "Scott"]
+        }
+      ]
     }
   }
 }
