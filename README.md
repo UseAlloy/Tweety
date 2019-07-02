@@ -12,9 +12,9 @@ Before anything else you should clone this repo to your local machine. Github ha
 
 This project uses the latest versions of Django and Python 3 to run the back end code, which is stored in the `tweety` directory. If you're new to Python and Django, take a moment to read these short articles about how to get set up with a local development environment. Make sure to use Python >=3.6 and not Python 2.
 
- - [Installing Python on OS X](http://docs.python-guide.org/en/latest/starting/install/osx/)
- - [Installing Python on Windows](http://docs.python-guide.org/en/latest/starting/install/win/)
- - [Using Python Virtual Environments](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
+ - [Pyenv](https://github.com/pyenv/pyenv) - This is a great library used to manage different versions of Python. Probably the simplest way to get started installing specific versions.
+ - [Installing Python on OS X](https://docs.python-guide.org/starting/install3/osx/#install3-osx) - This is a more manual process for installing Python 3 on your machine.
+ - [Using Python Virtual Environments](http://docs.python-guide.org/en/latest/dev/virtualenvs/) - Virtualenvs are a great way to encapsulate a specific set of Python packages for a specific project, just like NPM `/node_modules/` or Ruby gemsets.
 
 To get started running the back end:
 

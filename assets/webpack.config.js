@@ -1,12 +1,14 @@
 const path = require('path');
 const webpack = require('webpack');
 const BundleTracker = require('webpack-bundle-tracker');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
+const devMode = process.env.NODE_ENV !== 'production';
 
 
 module.exports = {
   context: __dirname,
-  mode: 'development',
+  mode: devMode ? 'development' : 'production',
 
   entry: {
     // Entry files
@@ -22,7 +24,7 @@ module.exports = {
 
   output: {
     path: path.resolve('./assets/development/'),
-    filename: '[name].[hash:7].js',
+    filename: '[name].js',
     publicPath: 'http://0.0.0.0:3333/assets/development/',
     crossOriginLoading: 'use-credentials',
   },
@@ -34,26 +36,16 @@ module.exports = {
         exclude: [/node_modules/],
         use: {
           loader: 'babel-loader',
-          options: {
-            presets: [
-              ['env', {
-                include: ['es6.array.find'],
-                useBuiltIns: true,
-              }],
-              'es2015',
-              'react',
-            ],
-          },
         },
       }, // to transform JSX into JS
       {
-        test: /\.scss$/,
-        use: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader!sass-loader' }),
-      }, // compile scss to css
-      {
-        test: /\.css$/,
-        use: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader' }),
-      }, // compile css
+        test: /\.(sc|c)ss$/,
+        use: (devMode ? ['css-hot-loader'] : []).concat([
+          MiniCssExtractPlugin.loader,
+          'css-loader',
+          'sass-loader',
+        ]),
+      }, // compile scss/css to css
     ],
   },
 
@@ -69,12 +61,12 @@ module.exports = {
         NODE_ENV: '"development"',
       },
     }),
-    new ExtractTextPlugin({
-      filename: '[name].[hash:7].css',
-      // allChunks: true,
-    }),
     new webpack.HotModuleReplacementPlugin(),
     new BundleTracker({ path: __dirname, filename: './webpack-stats.json' }),
+    new MiniCssExtractPlugin({
+      filename: '[name].css',
+      allChunks: true,
+    }),
   ],
 
   devServer: {
@@ -84,9 +76,11 @@ module.exports = {
     inline: true,
     historyApiFallback: true,
     port: 3333,
-    headers: { 'Access-Control-Allow-Origin': 'http://localhost:8000' },
+    headers: {
+      'Access-Control-Allow-Origin': 'http://localhost:8000',
+      'Access-Control-Allow-Credentials': 'true',
+    },
     watchOptions: {
-      poll: 2500,
       ignored: /node_modules/,
     },
   },
