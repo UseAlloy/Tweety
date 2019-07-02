@@ -1,0 +1,18 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "include": [
+        "es6.array.find",
+        "es6.array.iterator",
+        "es6.promise",
+      ],
+     "useBuiltIns": "entry",
+    }],
+    "@babel/preset-react",
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-transform-object-assign",
+    "@babel/plugin-syntax-dynamic-import",
+  ],
+}
